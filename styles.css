@@ -7,21 +7,14 @@ body {
 
 article {
   /* border: 1px solid green; */
-  padding: 1rem;
-}
-
-h1 {
-  font-size: 1.8rem;
-}
-
-h2 {
-  font-size: 1.6rem;
-}
-
-h2 {
-  font-size: 1.3rem;
+  padding: 0 1.3rem;
 }
 
 p, code {
   font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+p {
+  margin-bottom: 2rem;
 }
