@@ -1,0 +1,35 @@
+/* mobile */
+body {
+  font-size: 15px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  /* border: 1px solid green; */
+  padding: 0 1.3rem;
+}
+
+p, code {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  article {
+    width: 60vw;
+  }
+}
+
+/* desktop */
+@media (min-width: 1080px) {
+  article {
+    width: 45vw;
+  }
+}
